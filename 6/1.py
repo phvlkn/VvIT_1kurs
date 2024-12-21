@@ -17,6 +17,7 @@ class UserAccount:
         else:
             print("Passwords do not match")
 
+
 user1 = UserAccount("user1", "aboba@mail.ru", "password")
 user1.set_password("password", "password1")
 user1.set_password("password", "<PASSWORD>")
