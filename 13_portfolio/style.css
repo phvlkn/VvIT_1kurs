@@ -52,6 +52,7 @@ section img {
 #projects {
   flex-direction: column; 
   align-items: flex-start; 
+  justify-content: space-between;
 }
 
 #projects ul {
@@ -65,12 +66,17 @@ section img {
 
 .projects-item {
   display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
+  align-items: flex-start; 
+  align-content: space-between; 
 }
 
 .projects-item div {
   max-width: 60%; 
+  text-align: left;
+}
+
+.projects-item ul {
+  margin-left: auto;
 }
 
 #skills {
