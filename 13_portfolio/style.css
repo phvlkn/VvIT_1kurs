@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #f8f9fa; 
+  border-bottom: 1px solid #ddd; 
+}
+
+header nav ul {
+  display: flex;
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none; 
+  color: #333; 
+  font-weight: 500; 
+}
+
+header nav ul li a:hover {
+  color: #007bff; 
+}
+
+section {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding-bottom: 50px;
+}
+
+section div {
+  max-width: 60%; 
+}
+
+section img {
+  max-width: 35%; 
+  height: auto;
+}
+
+#projects {
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+#projects ul {
+  list-style: none; 
+  padding: 0;
+}
+
+#projects ul li {
+  margin-bottom: 10px; 
+}
+
+.projects-item {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.projects-item div {
+  max-width: 60%; 
+}
+
+#skills {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#skills h3 {
+  margin-top: 20px; 
+}
+
+#skills h2 {
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #f8f9fa; 
+  border-top: 1px solid #ddd; 
+}
+
+footer a {
+  text-decoration: none;
+  color: #004062; 
+  font-weight: 500; 
+}
+footer a:hover {
+  color: #007bff; 
+}
